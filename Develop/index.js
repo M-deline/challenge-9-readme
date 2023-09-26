@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const markdownGenerator = require('./utils/generateMarkdown.js')
-const fs = require('fs')
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -24,10 +24,9 @@ const questions = [
         message: 'Write your email...',
         validate: emailAddress => {
             if (emailAddress) {
-                // console.log('GitHub success...')
                 return true;
             } else {
-                console.log('GitHub invalid...');
+                console.log('email invalid...');
                 return false;
             }
         }
@@ -126,7 +125,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeToFile(fileName, data, err => {
+    fs.writeFile(fileName, data, err => {
         if (err) throw new Error(err);
         console.log("test README success --> go to the readme folder to view")
     })
@@ -134,13 +133,13 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    console.log('Respond to the following prompts to create your README...');
+    console.log("README success. Go to readme_folder to view.");
     inquirer.prompt(questions)
     .then(readmeData => {
-        console.log(readmeData);
-        writeToFile('./readme_folder', markdownGenerator(readmeData))
+        writeToFile("./readme_folder/readme.md", generateMarkdown(readmeData))
     })
- };
-
+};
 // Function call to initialize app
 init();
+
+
