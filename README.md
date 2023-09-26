@@ -8,7 +8,10 @@ I ran into a few confusing things while creating this application. I had to sear
 ## Video description
 In this video, I explain how this application works properly and go over my code. This is a demo. 
 - https://drive.google.com/file/d/1zJai65ENRoBsKO-B3BNl_EdzA5Ez7WUG/view
+- file:///Users/madelinekovanda/Downloads/Untitled_%20Sep%2025,%202023%209_48%20PM.webm (same link in case first one does not work)
 ## Credits:
-“Licenses.” Choose a License, choosealicense.com/licenses/. Accessed 18 Sept. 2023. 
-“Node.Js Tutorial.” Node.Js Tutorial, www.w3schools.com/nodejs/. Accessed 19 Sept. 2023. 
-“Static Badge.” Shieldsio RSS, shields.io/badges. Accessed 18 Sept. 2023. 
+- “Licenses.” Choose a License, choosealicense.com/licenses/. Accessed 18 Sept. 2023. 
+
+- “Node.Js Tutorial.” Node.Js Tutorial, www.w3schools.com/nodejs/. Accessed 19 Sept. 2023. 
+
+- “Static Badge.” Shieldsio RSS, shields.io/badges. Accessed 18 Sept. 2023. 
