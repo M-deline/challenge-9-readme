@@ -1,4 +1,4 @@
-# crash
+# Cocktail Search
   
     [![Static Badge](https://img.shields.io/badge/license-MIT)](https://choosealicense.com/licenses/mit/)
     
@@ -9,25 +9,25 @@
   - [Testing](#testing)
   - [Contributions](#Contribution)
   ## Overview
-  crash
-  crash
+  Cocktail Search
+  We made this project to practice our coding skills with handlebars, css, javascript, and sequelize
   
     [![Static Badge](https://img.shields.io/badge/license-MIT)](https://choosealicense.com/licenses/mit/)
     
   ## Installation Process
-  crash
+  install node npm i
 
   ## Usage 
-  crash
+  anyone can use this
 
   ## Testing 
-  crash
+  Git clone the repo and then in index.js open the terinal and type node index.js and answer the questions to generate your readme 
 
   ## Contributions 
-  crash
+  Please no contributions
   
   ## Contact 
   Contact me with questions
-  [crash](mailto:crash)
+  [M-deline](mailto:madeline@outlook.com)
   
   

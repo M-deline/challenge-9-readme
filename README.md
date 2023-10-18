@@ -7,8 +7,7 @@ This challenge was a success since it functions properly. It asks the questions/
 I ran into a few confusing things while creating this application. I had to search up how use throw new error correctly and I had to change my fs.writeFile function a few times since I was confusing writeFile and writeToFile so I was getting errors since I was trying to import the data (input) into a file that did not exist. 
 ## Video description
 In this video, I explain how this application works properly and go over my code. This is a demo. 
-- https://drive.google.com/file/d/1zJai65ENRoBsKO-B3BNl_EdzA5Ez7WUG/view
-- file:///Users/madelinekovanda/Downloads/Untitled_%20Sep%2025,%202023%209_48%20PM.webm (same link in case first one does not work)
+- https://drive.google.com/file/d/1LtagGt9zx-rWO3NTrpdfkRNXxt4B6YjI/view
 ## Credits:
 - “Licenses.” Choose a License, choosealicense.com/licenses/. Accessed 18 Sept. 2023. 
 
