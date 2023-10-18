@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
     {
         type: 'input',
-        name: 'Title',
+         name: 'title',
         message: 'Write the name of your project...',
         validate: userTitle => {
             if (userTitle) {
@@ -31,6 +31,19 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Write your github username...',
+        validate: github => {
+            if (github) {
+                // console.log('Github success...')
+                return true;
+            } else {
+                console.log('Github invalid...');
+                return false;
+            }
+        }},
     {
         type: 'input',
         name: 'summary',

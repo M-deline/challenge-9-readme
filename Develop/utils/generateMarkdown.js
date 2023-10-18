@@ -1,32 +1,24 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  // let badgeLicense = license.replace(" ")
-  if (license !== 'none') {
-    return `
-    (![Static Badge](https://img.shields.io/badge/:badgeContent)
-    )](${renderLicenseLink(license)})
+ let badge = license.replace(" ", "&ensp;");
+ return `
+    [![Static Badge(https://img.shields.io/badge/:${badge})](${renderLicenseLink(license)})
     `;
-  } else {
-    return '';
   }
-}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== 'none') {
-    return `(https://choosealicense.com/licenses/)`;
-  } else {
-    return '';
-  }
+  let link = license.replace(" ", "-");
 
+    return `(https://choosealicense.com/licenses/${link}/)`;
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license == 'none') {
+  if (license === 'none') {
     return "";
   } else {
     return `
@@ -42,14 +34,14 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
-  ## TOC 
+  ## Table of Contents 
   - [Overview](#summary)
-  - [Installation] (#installation)
-  - [Usage] (#usage)
-  - [Testing] (#testing)
-  - [Contributions] (#contributions)
+  - [Installation](#installationProcess)
+  - [Usage](#usageInfo)
+  - [Testing](#testing)
+  - [Contributions](#Contribution)
   ## Overview
-  ${data.projectSummary}'
+  ${data.title}
   ${data.inspiration}
   ${renderLicenseBadge(data.license)}
   ## Installation Process
@@ -65,7 +57,8 @@ function generateMarkdown(data) {
   ${data.Contribution}
   
   ## Contact 
-  [Email: ${data.emailAddress}] (mailto:${data.emailAddress})
+  Contact me with questions
+  [${data.github}](mailto:${data.emailAddress})
   
   `;
 }
