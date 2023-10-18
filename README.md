@@ -5,6 +5,8 @@ This application is helpful and would be highly useful outside of this class as 
 ## Successes and Challenges 
 This challenge was a success since it functions properly. It asks the questions/asks the user to provide the necessary input and then it does export into the correct folder. 
 I ran into a few confusing things while creating this application. I had to search up how use throw new error correctly and I had to change my fs.writeFile function a few times since I was confusing writeFile and writeToFile so I was getting errors since I was trying to import the data (input) into a file that did not exist. 
+## For Generated README
+The generated README file will be under the readme_folder where you can then view the new readme you have just created.
 ## Video description
 In this video, I explain how this application works properly and go over my code. This is a demo. 
 - https://drive.google.com/file/d/1LtagGt9zx-rWO3NTrpdfkRNXxt4B6YjI/view
