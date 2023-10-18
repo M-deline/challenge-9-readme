@@ -1,6 +1,6 @@
-# Practice 
+# crash
   
-    [![Static Badge(https://img.shields.io/badge/:mit)]((https://choosealicense.com/licenses/mit/))
+    [![Static Badge](https://img.shields.io/badge/license-MIT)](https://choosealicense.com/licenses/mit/)
     
   ## Table of Contents 
   - [Overview](#summary)
@@ -9,25 +9,25 @@
   - [Testing](#testing)
   - [Contributions](#Contribution)
   ## Overview
-  Practice '
-  homework
+  crash
+  crash
   
-    [![Static Badge(https://img.shields.io/badge/:mit)]((https://choosealicense.com/licenses/mit/))
+    [![Static Badge](https://img.shields.io/badge/license-MIT)](https://choosealicense.com/licenses/mit/)
     
   ## Installation Process
-  install node
+  crash
 
   ## Usage 
-  anyone can use
+  crash
 
   ## Testing 
-  node index.js
+  crash
 
   ## Contributions 
-  no one 
+  crash
   
   ## Contact 
   Contact me with questions
-  [m-deline](mailto:practice@outlook.com)
+  [crash](mailto:crash)
   
   
